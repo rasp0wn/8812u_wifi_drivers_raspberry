@@ -8,7 +8,7 @@ cd rtl*
 sed -i 's/CONFIG_PLATFORM_I386_PC = y/CONFIG_PLATFORM_I386_PC = n/g' Makefile
 sed -i 's/CONFIG_PLATFORM_ARM_RPI = n/CONFIG_PLATFORM_ARM_RPI = y/g' Makefile
 sudo make dkms_install
-
+#make && make install
 
 # Old method
 # Steps from https://github.com/morrownr/8812au

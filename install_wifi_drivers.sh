@@ -1,4 +1,4 @@
-# Steps from https://github.com/morrownr/8812au
+# From https://github.com/aircrack-ng/rtl8812au
 sudo apt-get install raspberrypi-kernel-headers
 sudo apt-get install dkms
 
@@ -10,6 +10,7 @@ sudo make dkms_install
 
 
 # Old method
+# Steps from https://github.com/morrownr/8812au
 #sudo apt update
 #sudo apt install -y raspberrypi-kernel-headers bc build-essential dkms git
 #mkdir ~/src

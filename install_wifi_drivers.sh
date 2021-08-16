@@ -8,6 +8,7 @@ cd rtl*
 sed -i 's/CONFIG_PLATFORM_I386_PC = y/CONFIG_PLATFORM_I386_PC = n/g' Makefile
 sed -i 's/CONFIG_PLATFORM_ARM_RPI = n/CONFIG_PLATFORM_ARM_RPI = y/g' Makefile
 sudo make dkms_install
+#sudo dkms remove 8812au/5.6.4.2_35491.20191025 --all
 #make && make install
 
 # Old method

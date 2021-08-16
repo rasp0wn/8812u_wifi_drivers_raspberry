@@ -1,6 +1,7 @@
 # From https://github.com/aircrack-ng/rtl8812au
 sudo apt-get install raspberrypi-kernel-headers
 sudo apt-get install dkms
+sudo rpi-update
 
 git clone -b v5.6.4.2 https://github.com/aircrack-ng/rtl8812au.git
 cd rtl*
